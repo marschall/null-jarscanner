@@ -1,4 +1,4 @@
-NULL JarScanner
+NULL JarScanner [![Build Status](https://travis-ci.org/marschall/null-jarscanner.svg?branch=master)](https://travis-ci.org/marschall/null-jarscanner)
 ===============
 
 Disables all ClassPath scanning by Tomcat. This can disable This improves Tomcat startup time but makes it no longer Servlet API Spec compliant since TLDs and `@HandlesTypes` are no longer picked up.
