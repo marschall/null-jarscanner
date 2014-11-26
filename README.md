@@ -6,6 +6,10 @@ Disables all ClassPath scanning by Tomcat. This can disable This improves Tomcat
 Usage
 -----
 
+Copy the JAR to $CATALINA_BASE/lib
+
+Use the following `META-INF/context.xml`
+
 ```xml
 <Context>
 
