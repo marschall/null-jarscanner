@@ -9,6 +9,10 @@
   <description>Disable all JAR scanning by Tomcat.</description>
   <inceptionYear>2014</inceptionYear>
 
+  <prerequisites>
+    <maven>2.2.1</maven>
+  </prerequisites>
+
   <url>https://github.com/marschall/null-jarscanner</url>
 
   <scm>
@@ -151,7 +155,19 @@
         </plugin>
         <plugin>
           <artifactId>maven-scm-plugin</artifactId>
-          <version>1.9.1</version>
+          <version>1.9.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>2.5</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.4</version>
         </plugin>
       </plugins>
     </pluginManagement>
