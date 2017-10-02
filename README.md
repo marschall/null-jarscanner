@@ -1,5 +1,4 @@
 NULL JarScanner [![Build Status](https://travis-ci.org/marschall/null-jarscanner.svg?branch=master)](https://travis-ci.org/marschall/null-jarscanner) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.marschall/null-jarscanner/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.marschall/null-jarscanner) [![Javadocs](https://www.javadoc.io/badge/com.github.marschall/null-jarscanner.svg)](https://www.javadoc.io/doc/com.github.marschall/null-jarscanner)
-
 ===============
 
 Disables all class path scanning by Tomcat. This improves Tomcat startup time but makes it no longer Servlet API Spec compliant since TLDs and `@HandlesTypes` are no longer picked up.
