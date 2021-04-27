@@ -28,13 +28,19 @@ public class NullJarScanner implements JarScanner {
   }
 
   enum NullJarScanFilter implements JarScanFilter {
+
     INSTANCE;
 
     @Override
     public boolean check(JarScanType jarScanType, String jarName) {
       return false;
     }
-    
+
+    @Override
+    public boolean isSkipAll() {
+      return true;
+    }
+
   }
 
 }
